@@ -2,12 +2,12 @@
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 {
     "name": "Geospatial Website store locator",
-    "version": "19.0.1.0.0",
+    "version": "19.0.1.1.0",
     "category": "GeoBI",
-    "author": "Camptocamp, Odoo Community Association (OCA)",
+    "author": "Camptocamp, Odoo Community Association (OCA), Cédric Paradis",
     "license": "AGPL-3",
-    "website": "https://github.com/OCA/geospatial",
-    "depends": ["base_geoengine", "website", "partner_store", "website_geoengine"],
+    "website": "https://github.com/Impress-Foods/geospatial",
+    "depends": ["website", "partner_store", "base_geolocalize"],
     "data": [
         "templates/snippets/s_openlayer_store_locator.xml",
         "views/snippets.xml",
